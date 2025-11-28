@@ -1,0 +1,116 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e6e6e6;
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #481e9c;
+    margin-bottom: 15px;
+}
+
+/*Container*/
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/*Card form*/
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 35px;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: .2s;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+button {
+    background: #481e9c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #005fc1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #481e9c;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: #f1f7ff;
+}
+.delete-btn {
+    background: #dc3545;
+    padding: 8px 14px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+}
+.delete-btn:hover {
+    background: #b02a37;
+}
+
+
+.logo-svg {
+    width: 350px;
+    height: auto;
+    fill: #481e9c;
+    display: block; 
+    margin: 0 auto;
+  
+}
