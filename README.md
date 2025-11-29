@@ -7,15 +7,14 @@ Este é um projeto de Cadastro de Produtos, desenvolvido sem frameworks, utiliza
 - HTML + CSS para interface
 - JSON como formato de salvar os dados.
 
--  ▶ Como Rodar o Projeto
+ ▶ Como Rodar o Projeto
 
 ### 1. Abra o terminal na pasta do projeto e rode o servidor embutido do PHP:
 
-```bash
-php -S localhost:8000 -t public
+```php -S localhost:8000 -t public```
 
 Abra o navegador em:
 
-http://localhost:8000/public/index.html
+```http://localhost:8000/public/index.html```
 
 Pronto! Sistema pronto para usar.
